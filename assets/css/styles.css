@@ -1,0 +1,509 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #141414;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky {
+    padding: 5px 100px;
+    background: #fff;
+}
+
+header .home {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+.sticky a:hover {
+    color: #9b9b9ba3;
+}
+
+header ul {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: .3s;
+}
+
+
+header.sticky .home,
+header.sticky ul li a {
+    color: #000;
+    background-color: #fff;
+}
+
+header.sticky ul,
+header.sticky ul li {
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    color: white;
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+#descricao h1 {
+    padding: 20px;
+    margin: 0;
+    font-size: 40px;
+}
+
+#descricao p {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-wrapper a {
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: #9B9B9B;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #9b9b9ba3;
+    color: black;
+}
+
+.img-2 {
+    display: block;
+    width: 100%;
+}
+
+#investimentos {
+    margin-top: 20px;
+    color:white;
+}
+
+.container-2 h1 {
+    padding: 20px;
+    margin: 0;
+    font-size: 40px;
+}
+
+.container-3 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wrapper {
+    color:#9B9B9B;
+}
+
+#tipos-de-investimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.icon {
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.stocks {
+    width: 40px;
+    height: 40px;
+}
+
+.piggy {
+    width: 50px;
+    height: 50px;
+}
+
+.fundos {
+    width: 50px;
+    height: 50px;
+}
+
+.container-5 {
+    background-color: white;
+}
+
+.container-4 {
+    background-color: white;
+}
+
+.container-4 h1 {
+    background-color: white;
+}
+
+.container-4 p {
+    background-color: white;
+}
+
+.container-6 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#porque-entrar {
+    background-color: white;
+}
+
+.container-7 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.container-7 h1 {
+    background-color: white;
+}
+
+.container-7 p {
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container-8 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-8 p {
+    margin: 10px;
+}
+
+.img-3 {
+    display: none;
+}
+
+.wrapper-2 {
+    background-color: white;
+}
+
+#footer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.container-9 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+#img-4 {
+    width: 300px;
+    margin: 10px;
+}
+
+#investimentos {
+    margin-top: 150px;
+}
+
+#api-container {
+    display: flex;
+    justify-content: center;
+}
+
+#pagina-api h1 {
+    background-color: white;
+    color: #333;
+}
+
+#nome-empresa, #valor-acao {
+    background-color: white;
+}
+
+#pagina-api {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.area-acoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.acao {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fa-solid.fa-money-bill-transfer {
+    background-color: #fff;
+}
+
+#nome-empresa {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#valor-acao {
+    font-size: 1.2em;
+    color: #28a745;
+}
+
+@media only screen and (min-width: 100px) {
+	header, header ul{
+		display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        height: 100%;
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+
+    }
+
+    .img-2 {
+        width: 600px;
+        height: 400px;
+    }
+
+    #investimentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+        margin-bottom: 0;
+    }
+
+    .container-3 {
+        margin: 80px;
+    }
+
+    #tipos-de-investimento {
+        padding: 40px;
+        min-height: 50vh;
+    }
+
+    .container-4 {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-9 {
+        margin-left: 40px;
+        align-self: start;
+    }
+
+    header, header ul{
+		display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 120vh;
+    }
+
+    .img {
+        display: block;
+        height: 300px;
+        width: 500px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #descricao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #investimentos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-2 {
+        padding-top: 40px;
+    }
+
+    .container-3 {
+        margin: 10px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .container-4 {
+        margin: 20px;
+    }
+
+    .container-5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .container-8 {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .wrapper-2 {
+        width: 300px;
+        height: 360px;
+        background-color: black;
+    }
+
+    .wrapper-2 p {
+        background-color: black;
+        color: white;
+    }
+
+    .img-3 {
+        display: block;
+        width:300px;
+        height: 300px;
+    }
+
+
+}
+
+
+
+
+
+

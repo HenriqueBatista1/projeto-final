@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="https://kit.fontawesome.com/eff1f0745a.js" crossorigin="anonymous"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <title>Tela mercado financeiro</title>
+  </head>
+  <body>
+    <header class="sticky">
+      <a href="#" class="home">Home</a>
+      <ul>
+        <li><a href="#api-container">Verificar Ações</a></li>
+        <li><a href="./index2.html#">Saiba Mais</a></li>
+      </ul>
+    </header>
+    <main>
+      <img
+        class="img"
+        src="./assets/img/mercado-financeiro.jpg"
+        alt="Imagem de gráfico com flutuação de ações"
+      />
+      <div class="container">
+        <article id="descricao">
+          <h1>Mercado Financeiro</h1>
+          <p>
+            Em economia e finanças, mercado financeiro é como se denomina todo o
+            universo que envolve as operações de compra e venda de ativos
+            financeiros, tais como valores mobiliários, mercadorias e câmbio. É
+            todo o ambiente em que ocorrem as operações de investimentos
+            financeiros.
+          </p>
+        </article>
+        <div class="btn-wrapper">
+          <a href="index2.html#"><button class="btn">Saiba mais ></button></a>
+        </div>
+      </div>
+    </main>
+    <div id="api-container">
+      <section id="pagina-api">
+        <h1>Confira as últimas atualizações do mercado de ações</h1>
+        <button type="button" id="btn-acao">Verificar Preços</button>
+        <div class="area-acoes">
+            <div class="acao">
+                <span id="nome-empresa"></span>
+                <span id="valor-acao"></i></span>
+            </div>
+        </div>
+        </section>
+        <script src="api.js"></script>
+    </div>
+    <footer id="footer">
+      <div class="container-9">
+        <p>Endereço</p>
+        <p>Rua Qualquer, 123 - Cidade Qualquer, MG</p>
+        <p>Telefone</p>
+        <p>(12) 3456-7890</p>
+        <p>E-mail</p>
+        <p>alo@email.com</p>
+      </div>
+      <img id="img-4" src="./assets/img/Logo3.png" alt="" />
+    </footer>
+  </body>
+</html>
