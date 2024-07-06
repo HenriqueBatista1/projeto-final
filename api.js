@@ -1,3 +1,5 @@
+/* API */
+
 const nomeEmpresa = document.querySelector("#nome-empresa")
 const valorAcao = document.querySelector("#valor-acao")
 const btnAcao = document.querySelector("#btn-acao")
@@ -25,3 +27,17 @@ async function atualizaAcoes(){
 }
 
 btnAcao.addEventListener("click", atualizaAcoes)
+
+/* CARROSSEL */
+
+let count = 1
+document.querySelector("#radio1").checked = true
+
+setInterval(() => {
+    count++;
+    if(count > 4){
+        count = 1
+    }
+
+    document.querySelector("#radio" + count).checked = true
+}, 5000)
