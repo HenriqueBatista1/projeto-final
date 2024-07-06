@@ -89,7 +89,7 @@ header.sticky ul li {
 }
 
 #descricao h1 {
-    padding: 20px;
+    padding: 10px;
     margin: 0;
     font-size: 40px;
 }
@@ -98,6 +98,7 @@ header.sticky ul li {
     padding: 10px;
     font-size: 16px;
     line-height: 24px;
+    text-align: justify;
 }
 
 .btn-wrapper {
@@ -142,6 +143,10 @@ header.sticky ul li {
     padding: 10px;
     font-size: 16px;
     line-height: 24px;
+}
+
+.container-3 > p{
+    margin-top: 2rem;
 }
 
 .wrapper {
