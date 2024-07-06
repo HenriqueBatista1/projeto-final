@@ -259,7 +259,8 @@ header.sticky ul li {
 }
 
 #img-4 {
-    width: 300px;
+    width: 380px;
+    height: 80px;
     margin: 10px;
 }
 
@@ -346,6 +347,10 @@ button:hover {
         justify-content: center;
         align-items: center;
 	}
+
+    .carrossel {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -410,6 +415,10 @@ button:hover {
         flex-direction: row;
         justify-content: space-between;
 	}
+
+    .carrossel {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -503,6 +512,10 @@ button:hover {
 }
 
 /* CARROSSEL */
+
+#carrossel-container {
+    margin-top: 100px;
+}
 
 .carrossel{
     margin: 0 auto;
