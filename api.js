@@ -4,7 +4,7 @@ const nomeEmpresa = document.querySelector("#nome-empresa")
 const valorAcao = document.querySelector("#valor-acao")
 const btnAcao = document.querySelector("#btn-acao")
 
-let principaisAcoes = ["PETR4", "VALE3", "ITUB4", "AZUL4", "ABEV3", "MGLU3", "B3SA3", "BBAS3", "WEGE3", "SUZB3", "CIEL3", "CMIG4", "CRFB3", "ELET3", "LREN3", "GGBR4", "RENT3", "JBSS3", "SBSP3", "TIMS3"]
+let principaisAcoes = ["PETR4", "VALE3", "ITUB4", "AZUL4", "ABEV3", "MGLU3", "B3SA3", "MRFG3", "WEGE3", "SUZB3", "CIEL3", "CMIG4", "CRFB3", "ELET3", "LREN3", "GGBR4", "RENT3", "JBSS3", "SBSP3", "TIMS3"]
 let i = 0
 
 async function atualizaAcoes(){
