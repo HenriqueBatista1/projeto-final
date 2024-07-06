@@ -142,6 +142,10 @@ header.sticky ul li {
     line-height: 24px;
 }
 
+.container-3 > p{
+    margin-top: 2rem;
+}
+
 .wrapper {
     color:#9B9B9B;
 }
